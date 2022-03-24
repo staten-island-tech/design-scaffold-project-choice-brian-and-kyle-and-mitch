@@ -1,8 +1,25 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html,
+body,
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  background-color: f4f1de;
+}
+#gallery {
+  background-color: f4f1de;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+.buttons {
+  margin-top: 3rem;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-size: 4rem;
 }

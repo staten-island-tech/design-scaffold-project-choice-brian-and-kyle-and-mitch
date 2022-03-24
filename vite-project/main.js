@@ -1,6 +1,20 @@
-import './style.css'
+const items = [
+  {
+    name: "trbles",
+    image: "sdfge",
+    price:" eafa",
+    
+  },
+];
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+function all() {
+  items.forEach((item) =>
+    DOMSelectors.gallery.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="box">
+      <h2>${item.name}</h2>
+      <img class= "image" src="${item.image}">
+      <p>$${item.price}</p></div>`
+    )
+  );
+}
