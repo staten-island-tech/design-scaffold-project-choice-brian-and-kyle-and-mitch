@@ -1,7 +1,6 @@
 #img1 {
   position: absolute;
-  width: 84rem;
-  height: 45rem;
+  height: 60rem;
   top: 18rem;
   border-radius: 2.5rem;
   display: block;
@@ -14,7 +13,7 @@ a {
   height: 10.9375rem;
   width: 22.6875rem;
   left: 12.8125rem;
-  top: 705px;
+  top: 44.0625rem;
   border: 0.2rem solid;
   border-radius: 2rem;
   padding: 2rem;
@@ -38,6 +37,12 @@ a {
 }
 .img {
   align-items: center;
-  width: 75%;
-  height: 25rem;
+  height: 38rem;
+}
+#dessert1 {
+  width: 56.25rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 2.5rem;
+  position: relative;
 }
