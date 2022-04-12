@@ -8,10 +8,41 @@ body,
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: none;
-  background-color: #fff0b9;
+}
+/* 8d6b94 B185A7 C3A29E E8DBC5 FFF4E9 */
+.navbar {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #c3a29e;
+  height: 13rem;
+}
+
+li {
+  font-size: 8rem;
+  float: left;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Wire One;
+  font-weight: 1000;
+  display: block;
+  padding-left: 8rem;
+  padding-top: 3rem;
+}
+li a:hover {
+  color: #fff4e9;
+}
+#button1 {
+  font-size: 11rem;
+  transform: translateY(-2rem);
 }
 h1 {
-  background-color: #fbe8a3;
   border: 0.2rem solid;
   border-radius: 2rem;
   padding: 2rem;
@@ -19,11 +50,128 @@ h1 {
   font-family: Wire One;
   font-size: 6rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   letter-spacing: 0rem;
   text-align: center;
   width: 50rem;
-  margin-top: 3rem;
+  transform: translateY(3rem);
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+  margin-bottom: 6rem;
+}
+section {
+  min-height: 125rem;
+}
+.h1b {
+  background-color: #e8dbc5;
+}
+.h1a {
+  background-color: #fff4e9;
+}
+/* 
+-----------------------------------------------------------------------
+Section 1 
+-----------------------------------------------------------------------
+ */
+
+#sec-1 {
+  background-color: #fff4e9;
+}
+#img1 {
+  height: 40%;
+  border-radius: 2.5rem;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+#title {
+  margin-top: 13rem;
+}
+p {
+  font-size: 4rem;
+  font-family: Wire One;
+  font-weight: 800;
+  text-align: center;
+  margin-left: 25%;
+  padding-top: 3rem;
+  width: 50%;
+}
+@media (max-width: 650px) {
+  body {
+    display: block;
+    font-size: 80%;
+  }
+  p {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+  }
+}
+/* 
+-----------------------------------------------------------------------
+Section 2 
+-----------------------------------------------------------------------
+ */
+
+#sec-2 {
+  background-color: #e8dbc5;
+}
+#sec-2 h1 {
+}
+#sec-2 p {
+  transform: translateY(-3rem);
+}
+#pic2 {
+  width: 30%;
+  height: 20%;
+}
+/* 
+-----------------------------------------------------------------------
+Section 3
+-----------------------------------------------------------------------
+ */
+
+#sec-3 {
+  background-color: #fff4e9;
+}
+
+/* 
+-----------------------------------------------------------------------
+Section 4
+-----------------------------------------------------------------------
+ */
+
+#sec-4 {
+  background-color: #e8dbc5;
+}
+
+/* 
+-----------------------------------------------------------------------
+Section 5
+-----------------------------------------------------------------------
+ */
+
+#sec-5 {
+  background-color: #fff4e9;
+}
+
+/* 
+-----------------------------------------------------------------------
+Section 6
+-----------------------------------------------------------------------
+ */
+
+#sec-6 {
+  background-color: #e8dbc5;
+}
+
+/* 
+Section 7
+ */
+
+#sec-7 {
+  background-color: #fff4e9;
 }
