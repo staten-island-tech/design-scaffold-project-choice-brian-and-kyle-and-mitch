@@ -10,6 +10,7 @@ body,
   animation-fill-mode: none;
 }
 /* 8d6b94 B185A7 C3A29E E8DBC5 FFF4E9 */
+
 .navbar {
   z-index: 1;
   margin: 0;
@@ -82,8 +83,6 @@ Section 1
   max-width: 100%;
   height: auto;
   width: auto;
-  flex-direction: column;
-  align-items: center;
 }
 #title {
   margin-top: 13rem;
