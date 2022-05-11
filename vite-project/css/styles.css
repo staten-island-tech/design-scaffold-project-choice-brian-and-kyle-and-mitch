@@ -39,6 +39,11 @@ a {
 li a:hover {
   color: #fff4e9;
 }
+p {
+  font-size: 4rem;
+  font-family: Wire One;
+  font-weight: 800;
+}
 #button1 {
   font-size: 11rem;
   transform: translateY(-2rem);
@@ -78,22 +83,17 @@ Section 1
 #sec-1 {
   background-color: #fff4e9;
 }
-#img1 {
-  border-radius: 2.5rem;
-  max-width: 100%;
-  height: auto;
-  width: auto;
-}
 #title {
   margin-top: 13rem;
 }
-p {
+#sec-1 p {
   font-size: 4rem;
   font-family: Wire One;
   font-weight: 800;
   text-align: center;
   margin: 0.5rem auto;
-  padding-top: 3rem;
+  margin-bottom: -0.5rem;
+  padding-top: 2rem;
   width: 50%;
 }
 @media (max-width: 650px) {
@@ -120,8 +120,12 @@ Section 2
 }
 #sec-2 p {
   transform: translateY(-3rem);
+  width: 40%;
 }
-#pic2 {
+#img2 {
+  float: left;
+  margin-left: 2rem;
+  border-radius: 2.5rem;
   width: 30%;
   height: 20%;
 }
