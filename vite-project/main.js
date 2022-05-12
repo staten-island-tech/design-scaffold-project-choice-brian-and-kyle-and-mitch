@@ -14,14 +14,14 @@ document.getElementById("button3").addEventListener("click", function () {
   gsap.to(window, { duration: 1, scrollTo: "#top3" });
 });
 document.getElementById("button4").addEventListener("click", function () {
-  gsap.to(window, { duration: 1, scrollTo: "#sec-4" });
+  gsap.to(window, { duration: 1, scrollTo: "#top4" });
 });
 document.getElementById("button5").addEventListener("click", function () {
-  gsap.to(window, { duration: 1, scrollTo: "#sec-5" });
+  gsap.to(window, { duration: 1, scrollTo: "#top5" });
 });
 document.getElementById("button6").addEventListener("click", function () {
-  gsap.to(window, { duration: 1, scrollTo: "#sec-6" });
+  gsap.to(window, { duration: 1, scrollTo: "#top6" });
 });
 document.getElementById("button7").addEventListener("click", function () {
-  gsap.to(window, { duration: 1, scrollTo: "#sec-7" });
+  gsap.to(window, { duration: 1, scrollTo: "#top7" });
 });
