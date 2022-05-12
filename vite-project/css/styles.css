@@ -21,6 +21,9 @@ body,
   background-color: #c3a29e;
   height: 13rem;
 }
+.navbar:hover {
+  cursor: pointer;
+}
 
 li {
   font-size: 8rem;
@@ -74,6 +77,44 @@ section {
 .h1a {
   background-color: #fff4e9;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.imgcontainerleft {
+  margin-left: 5rem;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.imgcontainerright {
+  margin-right: 7.5rem;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.imgcontainerleft img {
+  margin-top: 2rem;
+  border-radius: 2.5rem;
+  height: 30rem;
+  width: 110%;
+}
+.imgcontainerright img {
+  margin-top: 2rem;
+  border-radius: 2.5rem;
+  height: 30rem;
+  width: 110%;
+}
+.menutext {
+  text-align: center;
+  width: 50%;
+  transform: translateY(3rem);
+}
+.menutext p {
+  padding-bottom: 3rem;
+  transform: translateY(-1rem);
+}
 /* 
 -----------------------------------------------------------------------
 Section 1 
@@ -112,44 +153,15 @@ Section 1
 Section 2 
 -----------------------------------------------------------------------
  */
-#container1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
 #sec-2 {
   background-color: #e8dbc5;
 }
-#sec-2 h1 {
-}
-#sec-2 p {
-  padding-bottom: 2rem;
-  transform: translateY(-3rem);
-}
-#sec-2 img {
-  margin-top: 2rem;
-  border-radius: 2.5rem;
-  height: 30rem;
-  width: 25%;
-}
-#img2 {
-  margin-left: 5rem;
-}
-#img3 {
-  margin-right: 5rem;
-}
-/* #img4 {
-  margin-left: 5rem;
-} */
-#text2 {
-  text-align: center;
-  width: 50%;
-  transform: translateY(3rem);
-}
+
 #top2 {
   position: relative;
   top: -13rem;
 }
+
 /* 
 -----------------------------------------------------------------------
 Section 3
