@@ -125,7 +125,6 @@ Section 2
 #sec-2 p {
   padding-bottom: 2rem;
   transform: translateY(-3rem);
-  width: 100%;
 }
 #sec-2 img {
   margin-top: 2rem;
@@ -149,7 +148,7 @@ Section 2
 #text2 {
   text-align: center;
   width: 50%;
-  transform: translateY(3rem) translateX(26%);
+  transform: translateY(3rem);
 }
 #top2 {
   position: relative;
