@@ -187,27 +187,7 @@ section {
   width: 50%;
 }
 
-#top2 {
-  position: relative;
-  top: -13rem;
-}
-#top3 {
-  position: relative;
-  top: -13rem;
-}
-#top4 {
-  position: relative;
-  top: -13rem;
-}
-#top5 {
-  position: relative;
-  top: -13rem;
-}
-#top6 {
-  position: relative;
-  top: -13rem;
-}
-#top7 {
+.top{
   position: relative;
   top: -13rem;
 }
