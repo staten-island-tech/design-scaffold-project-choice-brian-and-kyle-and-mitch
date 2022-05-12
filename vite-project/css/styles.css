@@ -119,15 +119,37 @@ Section 2
 #sec-2 h1 {
 }
 #sec-2 p {
+  padding-bottom: 2rem;
   transform: translateY(-3rem);
   width: 40%;
+}
+#sec-2 img {
+  margin-top: 2rem;
+  border-radius: 2.5rem;
+  width: 30%;
+  height: 30rem;
 }
 #img2 {
   float: left;
   margin-left: 2rem;
-  border-radius: 2.5rem;
-  width: 30%;
-  height: 20%;
+  margin-top: 2rem;
+}
+#img3 {
+  float: right;
+  margin-right: 2rem;
+}
+#img4 {
+  margin-left: 2rem;
+  transform: translateY(40rem) translateX(-45rem);
+}
+#text2 {
+  text-align: center;
+  width: 80%;
+  transform: translateX(49rem) translateY(-27rem);
+}
+#top2 {
+  position: relative;
+  top: -13rem;
 }
 /* 
 -----------------------------------------------------------------------
@@ -137,6 +159,10 @@ Section 3
 
 #sec-3 {
   background-color: #fff4e9;
+}
+#top3 {
+  position: relative;
+  top: -13rem;
 }
 
 /* 

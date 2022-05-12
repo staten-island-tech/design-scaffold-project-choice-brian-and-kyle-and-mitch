@@ -8,10 +8,10 @@ document.getElementById("button1").addEventListener("click", function () {
   gsap.to(window, { duration: 1, scrollTo: "#top" });
 });
 document.getElementById("button2").addEventListener("click", function () {
-  gsap.to(window, { duration: 1, scrollTo: "#sec-2" });
+  gsap.to(window, { duration: 1, scrollTo: "#top2" });
 });
 document.getElementById("button3").addEventListener("click", function () {
-  gsap.to(window, { duration: 1, scrollTo: "#sec-3" });
+  gsap.to(window, { duration: 1, scrollTo: "#top3" });
 });
 document.getElementById("button4").addEventListener("click", function () {
   gsap.to(window, { duration: 1, scrollTo: "#sec-4" });
