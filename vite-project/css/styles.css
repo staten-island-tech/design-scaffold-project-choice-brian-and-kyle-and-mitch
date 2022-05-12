@@ -129,22 +129,19 @@ theme changer
 }
 :root{
   --t1-navbar: #c3a29e;
-  --t2-navbar: #426B69;
+  --t2-navbar: #8F95D3;
   --peach: #fff4e9;
   --beige: #e8dbc5;
   --black: black;
-  --light-green: #B5CA8D;
-  --dark-green: #8BB174;
-  --slate-green: #2A4849;
+  --light-green: #DBB1BC;
+  --dark-green: #D3C4E3;
   --primary-nav: var(--t1-navbar);
   --primary-bg1: var(--peach);
   --primary-bg2: var(--beige);
-  --primary-text: var(--black);
   --primary-hovernavtext: var(--peach);
   --secondary-nav: var(--t2-navbar);
   --secondary-bg1: var(--light-green);
   --secondary-bg2: var(--dark-green);
-  --secondary-text: var(--slate-green);
   --secondary-hovernavtext: var(--light-green);
 }
 .primary-theme{
@@ -153,11 +150,8 @@ theme changer
   --h1acolor: var(--primary-bg1);
   --h1bcolor: var(--primary-bg2);
   --navcolor: var(--primary-nav);
-  --navtext: var(--primary-text);
   --bg1: var(--primary-bg1);
-  --textcolor: var(--primary-text);
   --bg2: var(--primary-bg2);
-
 }
 .secondary-theme{
   --navcolor: var(--secondary-nav);
@@ -165,14 +159,11 @@ theme changer
   --h1acolor: var(--secondary-bg1);
   --h1bcolor: var(--secondary-bg2);
   --navcolor: var(--secondary-nav);
-  --navtext: var(--secondary-text);
   --bg1: var(--secondary-bg1);
-  --textcolor: var(--secondary-text);
   --bg2: var(--secondary-bg2);
 }
 .navbar{
   background-color: var(--navcolor);
-  color: var(--navtext);
 }
 #sec-1, #sec-3, #sec-5, #sec-7, .h1a{
   background-color: var(--bg1);
