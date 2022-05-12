@@ -11,7 +11,7 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body>
+  <body class="primary-theme">
     <script type="module" src="/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
@@ -24,6 +24,7 @@
       <li><a id="button5">Steak</a></li>
       <li><a id="button6">Chicken</a></li>
       <li><a id="button7">Pasta</a></li>
+      <button id="themeswitcher" class="btn">Switch Color</button>
     </ul>
     <section id="sec-1">
       <h1 class="h1b" id="title">Our Story</h1>
@@ -62,14 +63,17 @@
       <h1 class="h1a">Appetizers</h1>
       <div class="container">
         <div class="imgcontainerleft">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/Garlic_Bread_20211110.JPG">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/Appetizer_BakedClams-large.jpg"> 
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-spicy-scarpariello-wings-large.jpg">
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/Garlic_Bread_20211110.JPG"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/Appetizer_BakedClams-large.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-spicy-scarpariello-wings-large.jpg"
+          />
         </div>
-        
+
         <div class="menutext">
           <p>Garlic Bread . . . . $15.95</p>
           <p>Baked Clams . . . . $23.95</p>
@@ -87,29 +91,32 @@
         </div>
 
         <div class="imgcontainerright">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-fried-calamari-large..jpg">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/Spiedini_Alla_Romana_20211110.JPG">
-        <img
-        src="https://www.carminesnyc.com/assets/uploads/general/carmines-stuffed-artichoke-large.jpg">
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-fried-calamari-large..jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/Spiedini_Alla_Romana_20211110.JPG"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-stuffed-artichoke-large.jpg"
+          />
         </div>
-
       </div>
-
     </section>
-    <section id="sec-3" style="min-height: 85rem;">
-      <div id="top3"></div> 
-       <h1 class="h1b">Veal</h1>
+    <section id="sec-3" style="min-height: 85rem">
+      <div id="top3"></div>
+      <h1 class="h1b">Veal</h1>
       <div class="container">
         <div class="imgcontainerleft">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/Carmines_Veal_Veal-Cutlet.jpg">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-veal-parmigiana-l.jpg"> 
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/Carmines_Veal_Veal-Cutlet.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-veal-parmigiana-l.jpg"
+          />
         </div>
-        
-        <div class="menutext" style="margin-top: 12rem;">
+
+        <div class="menutext" style="margin-top: 12rem">
           <p>Veal Cutlet . . . . $36.95</p>
           <p>Veal Parmigiana . . . . $44.95</p>
           <p>Veal Marsala . . . . $42.95</p>
@@ -118,26 +125,29 @@
         </div>
 
         <div class="imgcontainerright">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-veal-scaloppine-marsala-large.jpg">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-veal-scaloppine-with-lemon-and-butter-large.jpg">
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-veal-scaloppine-marsala-large.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-veal-scaloppine-with-lemon-and-butter-large.jpg"
+          />
         </div>
-</div>
-
+      </div>
     </section>
-    <section id="sec-4" style="min-height: 85rem;">
+    <section id="sec-4" style="min-height: 85rem">
       <div id="top4"></div>
       <h1 class="h1a">Seafood</h1>
       <div class="container">
         <div class="imgcontainerleft">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-shrimp-marinara-l.jpg">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-shrimp-scampi-large.jpg"> 
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-shrimp-marinara-l.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-shrimp-scampi-large.jpg"
+          />
         </div>
-        
-        <div class="menutext" style="padding-top: 5rem;">
+
+        <div class="menutext" style="padding-top: 5rem">
           <p>Shrimp Marinara . . . . $41.95</p>
           <p>Shrimp Scampi . . . . $41.95</p>
           <p>Shrimp Parmigiana . . . . $41.95</p>
@@ -148,26 +158,29 @@
         </div>
 
         <div class="imgcontainerright">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-shrimp-fra-diavolo-large.jpg">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-broiled-lobster-oreganata-large.jpg">
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-shrimp-fra-diavolo-large.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-broiled-lobster-oreganata-large.jpg"
+          />
         </div>
-
       </div>
     </section>
-    <section id="sec-5" style="min-height: 85rem;">
+    <section id="sec-5" style="min-height: 85rem">
       <div id="top5"></div>
       <h1 class="h1b">Steak</h1>
       <div class="container">
         <div class="imgcontainerleft">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-broiled-porterhouse-steak-large.jpg">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-porterhouse-pizzaiola-l.jpg"> 
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-broiled-porterhouse-steak-large.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-porterhouse-pizzaiola-l.jpg"
+          />
         </div>
-        
-        <div class="menutext" style="margin-top: 14rem;">
+
+        <div class="menutext" style="margin-top: 14rem">
           <p>Broiled Porterhouse Steak . . . . $61.95</p>
           <p>Porterhouse Pizzaiola . . . . $61.95</p>
           <p>Porterhouse W/ Peppers & Onions . . . $61.95</p>
@@ -175,84 +188,97 @@
         </div>
 
         <div class="imgcontainerright">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-porterhouse-with-peppers-and-onions-large.jpg">
-        <img
-          src="https://www.carminesnyc.com/assets/uploads/general/carmines-porterhouse-contadina-large.jpg">
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-porterhouse-with-peppers-and-onions-large.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-porterhouse-contadina-large.jpg"
+          />
         </div>
-</div>
+      </div>
     </section>
-    <section id="sec-6" style="min-height: 85rem;">
+    <section id="sec-6" style="min-height: 85rem">
       <div id="top6"></div>
       <h1 class="h1a">Chicken</h1>
       <div class="container">
-  <div class="imgcontainerleft">
-  <img
-    src="https://www.carminesnyc.com/assets/uploads/general/carmines-chicken-scarpariello-large.jpg">
-  <img
-    src="https://www.carminesnyc.com/assets/uploads/general/Carmines_Chicken_Chicken-Cutlet.jpg"> 
-  </div>
-  
-  <div class="menutext" style="padding-top: 5rem;">
-    <p>Chicken Scarpariello . . . . $38.95</p>
-    <p>Chicken Cutlet . . . . $33.95</p>
-    <p>Chicken Parmigiana . . . . $37.95</p>
-    <p>Chicken Marsala . . . . $33.95</p>
-    <p>Chicken Scaloppine W/ Lemon & Butter . . . . $33.95</p>
-    <p>Chicken Saltimbocca . . . . $35.95</p>
-    <p>Chicken Contadina . . . . $49.95</p>
-  </div>
+        <div class="imgcontainerleft">
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-chicken-scarpariello-large.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/Carmines_Chicken_Chicken-Cutlet.jpg"
+          />
+        </div>
 
-  <div class="imgcontainerright">
-  <img
-    src="https://www.carminesnyc.com/assets/uploads/general/carmines-chicken-parmigiana-large.jpg">
-  <img
-    src="https://www.carminesnyc.com/assets/uploads/general/carmines-chicken-contadina-large.jpg">
-  </div>
-</div>
+        <div class="menutext" style="padding-top: 5rem">
+          <p>Chicken Scarpariello . . . . $38.95</p>
+          <p>Chicken Cutlet . . . . $33.95</p>
+          <p>Chicken Parmigiana . . . . $37.95</p>
+          <p>Chicken Marsala . . . . $33.95</p>
+          <p>Chicken Scaloppine W/ Lemon & Butter . . . . $33.95</p>
+          <p>Chicken Saltimbocca . . . . $35.95</p>
+          <p>Chicken Contadina . . . . $49.95</p>
+        </div>
+
+        <div class="imgcontainerright">
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-chicken-parmigiana-large.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-chicken-contadina-large.jpg"
+          />
+        </div>
+      </div>
     </section>
-    <section id="sec-7" style="min-height: 120rem; padding-bottom: 5rem;">
+    <section id="sec-7" style="min-height: 120rem; padding-bottom: 5rem">
       <div id="top7"></div>
       <h1 class="h1b">Pasta</h1>
       <div class="container">
-  <div class="imgcontainerleft">
-  <img
-    src="https://www.carminesnyc.com/assets/uploads/general/carmines-marinara-large.jpg">
-  <img
-    src="https://www.carminesnyc.com/assets/uploads/general/carmines-penne-alla-vodka-large.jpg"> 
-  <img
-  src="https://www.carminesnyc.com/assets/uploads/general/carmines-spaghetti-meatballs.jpg">
-  </div>
-  
-  <div class="menutext">
-    <p>Choice of Pasta: Angel Hair, Linguine, Penne, Spaghetti Or Rigatoni</p>
-    <p>Garlic & Oil . . . . $27.95</p>
-    <p>Marinara . . . . $29.95</p>
-    <p>Penne Alla Vodka . . . . $36.95</p>
-    <p>Pomodoro . . . . $29.95</p>
-    <p>Giardiniera . . . . $31.95</p>
-    <p>Rigatoni & Broccoli . . . . $30.95</p>
-    <p>Meatballs . . . . $36.95</p>
-    <p>Sausage . . . . $33.95</p>
-    <p>Bolognese Meat Sauce . . . . $35.95</p>
-    <p>Ragu . . . . $37.95</p>
-    <p>Ravioli W/ Cheese . . . . $32.95</p>
-    <p>Lasagna . . . . $36.95</p>
-  </div>
+        <div class="imgcontainerleft">
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-marinara-large.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-penne-alla-vodka-large.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-spaghetti-meatballs.jpg"
+          />
+        </div>
 
-  <div class="imgcontainerright">
-  <img
-    src="https://www.carminesnyc.com/assets/uploads/general/Carmines_Dinner_Sausage-Pasta.jpg">
-  <img
-    src="https://www.carminesnyc.com/assets/uploads/general/carmines-bolognese-meat-sauce-large.jpg">
-    <img
-    src="https://www.carminesnyc.com/assets/uploads/general/carmines-lasagna-large.jpg">
-  </div>
-</div>
+        <div class="menutext">
+          <p>
+            Choice of Pasta: Angel Hair, Linguine, Penne, Spaghetti Or Rigatoni
+          </p>
+          <p>Garlic & Oil . . . . $27.95</p>
+          <p>Marinara . . . . $29.95</p>
+          <p>Penne Alla Vodka . . . . $36.95</p>
+          <p>Pomodoro . . . . $29.95</p>
+          <p>Giardiniera . . . . $31.95</p>
+          <p>Rigatoni & Broccoli . . . . $30.95</p>
+          <p>Meatballs . . . . $36.95</p>
+          <p>Sausage . . . . $33.95</p>
+          <p>Bolognese Meat Sauce . . . . $35.95</p>
+          <p>Ragu . . . . $37.95</p>
+          <p>Ravioli W/ Cheese . . . . $32.95</p>
+          <p>Lasagna . . . . $36.95</p>
+        </div>
+
+        <div class="imgcontainerright">
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/Carmines_Dinner_Sausage-Pasta.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-bolognese-meat-sauce-large.jpg"
+          />
+          <img
+            src="https://www.carminesnyc.com/assets/uploads/general/carmines-lasagna-large.jpg"
+          />
+        </div>
+      </div>
     </section>
   </body>
 </html>
-
 
 <!-- <div class="container">
   <div class="imgcontainerleft">
