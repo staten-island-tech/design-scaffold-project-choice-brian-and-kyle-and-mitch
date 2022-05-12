@@ -112,7 +112,11 @@ Section 1
 Section 2 
 -----------------------------------------------------------------------
  */
-
+#container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 #sec-2 {
   background-color: #e8dbc5;
 }
@@ -121,31 +125,31 @@ Section 2
 #sec-2 p {
   padding-bottom: 2rem;
   transform: translateY(-3rem);
-  width: 40%;
+  width: 50%;
 }
 #sec-2 img {
   margin-top: 2rem;
   border-radius: 2.5rem;
-  width: 30%;
   height: 30rem;
 }
 #img2 {
-  float: left;
-  margin-left: 2rem;
-  margin-top: 2rem;
+  /* float: left; */
+  width: 25%;
+  margin-left: 5rem;
 }
 #img3 {
-  float: right;
-  margin-right: 2rem;
+  /* float: right; */
+  width: 25%;
+  margin-right: 5rem;
 }
-#img4 {
+/* #img4 {
   margin-left: 2rem;
   transform: translateY(40rem) translateX(-45rem);
-}
+} */
 #text2 {
   text-align: center;
-  width: 80%;
-  transform: translateX(49rem) translateY(-27rem);
+  width: 50%;
+  transform: translateY(3rem) translateX(26%);
 }
 #top2 {
   position: relative;
