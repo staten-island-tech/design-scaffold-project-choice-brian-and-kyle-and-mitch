@@ -112,7 +112,7 @@ section {
 
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------
-theme changer
+theme switcher
 ---------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -122,10 +122,13 @@ theme changer
   font-family: Wire One;
   font-weight: 1000;
   border-radius: 2.5rem;
-  border: black;
   padding: 1rem;
   margin-left: 40rem;
   margin-top: 2rem;
+}
+.btn:hover {
+  cursor: pointer;
+  color: var(--navcolor);
 }
 :root{
   --t1-navbar: #c3a29e;
