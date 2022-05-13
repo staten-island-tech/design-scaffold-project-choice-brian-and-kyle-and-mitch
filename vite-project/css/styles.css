@@ -199,6 +199,25 @@ other shit
   position: relative;
   top: -13rem;
 }
+#menutitle{
+  font-size: 16rem;
+  font-family: Wire One;
+  background-color: var(--h1acolor);
+  border: solid;
+  width: 16%;
+  text-align: center;
+  border-radius: 2.5rem;
+  margin: auto;
+  height: 18rem;
+  transform: translateY(20rem);
+}
+.parallax{
+  background-image: url(https://www.carminesnyc.com/assets/uploads/general/home-about-frames.png);
+  min-height: 60rem;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 
 @media (max-width: 650px) {
   body {
