@@ -10,7 +10,6 @@ body,
   animation-fill-mode: none;
 }
 /* 8d6b94 B185A7 C3A29E E8DBC5 FFF4E9 */
-
 .navbar {
   z-index: 1;
   margin: 0;
@@ -108,7 +107,7 @@ section {
   padding-bottom: 3rem;
   transform: translateY(-1rem);
 }
-.parallax{
+.parallax {
   background-attachment: fixed;
   background-position: center;
 }
@@ -119,7 +118,7 @@ theme switcher
 ---------------------------------------------------------------------------------------------------------------------------------------
 */
 
-#themeswitcher{
+#themeswitcher {
   background-color: var(--h1bcolor);
   font-size: 6rem;
   font-family: Wire One;
@@ -127,21 +126,21 @@ theme switcher
   border-radius: 2.5rem;
   padding: 1rem;
   float: right;
-  margin-right: 5rem ;
+  margin-right: 5rem;
   margin-top: 2rem;
 }
 .btn:hover {
   cursor: pointer;
   color: var(--navcolor);
 }
-:root{
+:root {
   --t1-navbar: #c3a29e;
-  --t2-navbar: #8F95D3;
+  --t2-navbar: #8f95d3;
   --peach: #fff4e9;
   --beige: #e8dbc5;
   --black: black;
-  --light-green: #DBB1BC;
-  --dark-green: #D3C4E3;
+  --light-green: #dbb1bc;
+  --dark-green: #d3c4e3;
   --primary-nav: var(--t1-navbar);
   --primary-bg1: var(--peach);
   --primary-bg2: var(--beige);
@@ -151,31 +150,38 @@ theme switcher
   --secondary-bg2: var(--dark-green);
   --secondary-hovernavtext: var(--light-green);
 }
-.primary-theme{
+.primary-theme {
   --navcolor: var(--primary-nav);
-  --hovernavtext:var(--primary-hovernavtext);
+  --hovernavtext: var(--primary-hovernavtext);
   --h1acolor: var(--primary-bg1);
   --h1bcolor: var(--primary-bg2);
   --navcolor: var(--primary-nav);
   --bg1: var(--primary-bg1);
   --bg2: var(--primary-bg2);
 }
-.secondary-theme{
+.secondary-theme {
   --navcolor: var(--secondary-nav);
-  --hovernavtext:var(--secondary-hovernavtext);
+  --hovernavtext: var(--secondary-hovernavtext);
   --h1acolor: var(--secondary-bg1);
   --h1bcolor: var(--secondary-bg2);
   --navcolor: var(--secondary-nav);
   --bg1: var(--secondary-bg1);
   --bg2: var(--secondary-bg2);
 }
-.navbar{
+.navbar {
   background-color: var(--navcolor);
 }
-#sec-1, #sec-3, #sec-5, #sec-7, .h1a{
+#sec-1,
+#sec-3,
+#sec-5,
+#sec-7,
+.h1a {
   background-color: var(--bg1);
 }
-#sec-2, #sec-4, #sec-6, .h1b{
+#sec-2,
+#sec-4,
+#sec-6,
+.h1b {
   background-color: var(--bg2);
 }
 
@@ -196,11 +202,11 @@ other shit
   width: 50%;
 }
 
-.top{
+.top {
   position: relative;
   top: -13rem;
 }
-#menutitle{
+#menutitle {
   font-size: 16rem;
   font-family: Wire One;
   background-color: var(--h1acolor);
@@ -212,11 +218,11 @@ other shit
   height: 18rem;
   transform: translateY(20rem);
 }
-#menuimg{
+#menuimg {
   background-image: url(https://www.carminesnyc.com/assets/uploads/general/home-about-frames.png);
   min-height: 60rem;
 }
-#carminesimg{
+#carminesimg {
   margin-top: 13rem;
   background-image: url(https://www.carminesnyc.com/assets/uploads/general/carmines-general-og.jpg);
   min-height: 100rem;
