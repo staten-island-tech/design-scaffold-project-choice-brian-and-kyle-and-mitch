@@ -25,6 +25,9 @@ document.getElementById("button6").addEventListener("click", function () {
 document.getElementById("button7").addEventListener("click", function () {
   gsap.to(window, { duration: 1, scrollTo: "#top7" });
 });
+document.getElementById("button8").addEventListener("click", function () {
+  gsap.to(window, { duration: 1, scrollTo: "#story" });
+});
 
 document.querySelector(".btn").addEventListener("click", function () {
   if (document.body.classList.contains("secondary-theme")) {

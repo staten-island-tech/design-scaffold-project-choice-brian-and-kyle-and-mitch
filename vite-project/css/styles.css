@@ -108,7 +108,10 @@ section {
   padding-bottom: 3rem;
   transform: translateY(-1rem);
 }
-
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+}
 
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -123,7 +126,8 @@ theme switcher
   font-weight: 1000;
   border-radius: 2.5rem;
   padding: 1rem;
-  margin-left: 40rem;
+  float: right;
+  margin-right: 5rem ;
   margin-top: 2rem;
 }
 .btn:hover {
@@ -181,9 +185,6 @@ other shit
 ---------------------------------------------------------------------------------------------------------------------------------------
 */
 
-#title {
-  margin-top: 13rem;
-}
 #sec-1 p {
   font-size: 4rem;
   font-family: Wire One;
@@ -211,14 +212,17 @@ other shit
   height: 18rem;
   transform: translateY(20rem);
 }
-.parallax{
+#menuimg{
   background-image: url(https://www.carminesnyc.com/assets/uploads/general/home-about-frames.png);
   min-height: 60rem;
-  background-attachment: fixed;
-  background-position: center;
 }
-
-
+#carminesimg{
+  margin-top: 13rem;
+  background-image: url(https://www.carminesnyc.com/assets/uploads/general/carmines-general-og.jpg);
+  min-height: 100rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @media (max-width: 650px) {
   body {
     display: block;
