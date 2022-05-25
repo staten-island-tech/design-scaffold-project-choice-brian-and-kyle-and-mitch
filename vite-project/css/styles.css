@@ -168,8 +168,7 @@ theme switcher
   --bg1: var(--secondary-bg1);
   --bg2: var(--secondary-bg2);
 }
-.navbar,
-.footer {
+.navbar {
   background-color: var(--navcolor);
 }
 
