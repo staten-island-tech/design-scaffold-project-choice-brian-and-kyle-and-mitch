@@ -28,11 +28,6 @@ li {
   float: left;
   display: inline;
 }
-@media only screen and (max-width: 1440px) {
-  li {
-    font-size: 30%;
-  }
-}
 a {
   text-decoration: none;
   color: var(--primary-text);
