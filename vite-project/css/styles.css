@@ -10,6 +10,19 @@ body,
   animation-fill-mode: none;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  font-family: Wire One;
+  font-weight: 1000;
+  height: 4rem;
+}
+.footer li {
+  margin-left: 3rem;
+}
 .navbar {
   z-index: 1;
   margin: 0;
@@ -168,7 +181,8 @@ theme switcher
   --bg1: var(--secondary-bg1);
   --bg2: var(--secondary-bg2);
 }
-.navbar {
+.navbar,
+.footer {
   background-color: var(--navcolor);
 }
 
